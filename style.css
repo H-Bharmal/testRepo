@@ -1,0 +1,37 @@
+.container{
+    background-color: orange;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    /* position:relative; */
+    /* z-index: 10; */
+    /* overflow: auto; */
+}
+
+.wrapper{
+    height: 20rem;
+    width: 20rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+
+}
+/* .wrapper:hover{
+    background-color: aqua;
+    transform: scale(1.2);
+} */
+.cont{
+    padding: 12rem;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: black; */
+    overflow: hidden;
+}
+
